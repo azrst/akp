@@ -1,5 +1,3 @@
-# akp
-react native code
+# akp (awas kena pirus)
 
 
-test 123
