@@ -530,9 +530,9 @@ export class Home extends Component {
                         paddingLeft="50"
                     // absolute
                     />
-                    {/* <View style={{ position : 'absolute', alignItems : 'center', justifyContent : 'center'}}>
-                        <View style={{ width : Screens.width *22/100,height : Screens.width * 22/100, backgroundColor : '#977BBD',borderRadius : 50}}></View>
-                    </View> */}
+                    <View style={{ position: 'absolute', alignItems: 'center', justifyContent: 'center' }}>
+                        <View style={{ width: Screens.width * 22 / 100, height: Screens.width * 22 / 100, backgroundColor: '#977BBD', borderRadius: 50 }}></View>
+                    </View>
                 </View>
             </View>
         )
@@ -641,11 +641,12 @@ export class Home extends Component {
                                     source={require('../../image/logo.png')}
                                     style={{ height: Screens.height * 5 / 100, width: Screens.height * 5 / 100, marginLeft: 15 }}
                                 ></Image>
-                                <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'white', paddingLeft: 5 }}>VKWk</Text>
+                                {/* <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'white', paddingLeft: 5 }}>Awas Kena Pirus</Text> */}
                             </View>
                         </Left>
                         <Body>
                             <Title>
+                                <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'white', paddingLeft: 5 }}>Awas Kena Pirus</Text>
                             </Title>
                         </Body>
                         <Right>

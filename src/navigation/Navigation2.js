@@ -46,7 +46,7 @@ function Homes() {
           } else if (route.name === 'About') {
             iconName = 'ios-help-buoy'
             iconColor = focused ? '#5C3098' : 'grey'
-          } else if (route.name === 'Profile') {
+          } else if (route.name === 'Extras') {
             iconName = 'ios-pulse'
             iconColor = focused ? '#5C3098' : 'grey'
           }
@@ -64,7 +64,7 @@ function Homes() {
       }}
       options={{ tabBarVisible: false }}
     >
-      <Tab.Screen name="Profile" component={ProfileScreen} />
+      <Tab.Screen name="Extras" component={ProfileScreen} />
       <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="About" component={AboutScreen} />
     </Tab.Navigator>

@@ -100,16 +100,24 @@ class About extends Component {
 
     render() {
         return (
-            <View style={{ flex: 1 }}>
-                <StatusBar backgroundColor={'#5C3098'} />
-                {/* <ImageBackground 
-                    source = {require('../../image/back3.png')}
-                    style={{flex : 1}}
+            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'white' }}>
+                {/* <MapView
+                provider={PROVIDER_GOOGLE} // remove if not using Google Maps
+                style={{flex : 1}}
+                region={{
+                    latitude: 37.78825,
+                    longitude: -122.4324,
+                    latitudeDelta: 0.015,
+                    longitudeDelta: 0.0121,
+                }}
                 >
-                    
-
-                </ImageBackground> */}
-
+                </MapView> */}
+                <View>
+                    <Image source={require('../../image/comingSoon.png')} style={{ width: Screens.width * 80 / 100, height: Screens.height * 40 / 100 }} />
+                </View>
+                <View>
+                    <Text>Coming Soon</Text>
+                </View>
             </View>
         )
     }
